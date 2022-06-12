@@ -2,11 +2,7 @@ package ru.netology.data;
 
 import lombok.*;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-@Getter
-@Setter
+@Value
 public class RegistrationInfo {
     private String login;
     private String password;
